@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newyearongole.guru.MainActivity">
+
+    <WebView
+        android:id="@+id/mywebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_pink"
+        android:onClick="sendMessage"
+        android:padding="25dp"
+        android:text="Created ?"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mywebview"
+        app:layout_constraintVertical_bias="0.885" />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="match_parent"
+        android:id="@+id/main_fab"
+        android:layout_marginBottom="65sp"
+        android:layout_marginRight="30sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Facebook"
+            android:onClick="facebook"
+            android:src="@drawable/facebook"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Instagram"
+            android:onClick="instagram"
+            android:src="@drawable/instagram"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="LinkedIn"
+            android:onClick="linkedIn"
+            android:src="@drawable/linkedin"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Twitter"
+            android:onClick="twitter"
+            android:src="@drawable/twitter"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.constraint.ConstraintLayout>

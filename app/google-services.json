@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "743554255323",
+    "firebase_url": "https://ny-2018-ongole.firebaseio.com",
+    "project_id": "ny-2018-ongole",
+    "storage_bucket": "ny-2018-ongole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743554255323:android:62dff0cd1d5bcc75",
+        "android_client_info": {
+          "package_name": "com.newyearongole.guru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743554255323-41ab3m1p16ebqdr6870s94djqsds7cso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZUR5EV-Wx3HPcyHacC8pPwwgUpWN_yoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
